@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Aula1 {
+public class ConteudoAula {
     public static void main(String[] args) {
         // final String nome = "Mateus Volpato"; // Quando se tem final na frente de uma variável ela vira uma constante ou seja seu valor nunca mudará.
         // System.out.println(nome);
