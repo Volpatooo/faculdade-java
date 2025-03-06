@@ -11,6 +11,6 @@ public class Exercicio7 {
         int qtd2L = tec.nextInt();
         double totalLitros = (ml350 * 0.35) + (ml600 * 0.6) + (qtd2L * 2);
         System.out.println("A quantidade total de litros e de "+ totalLitros + " litros");
-
+        tec.close();
     }
 }

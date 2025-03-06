@@ -9,6 +9,6 @@ public class Exercicio8 {
         double valorReal = tec.nextDouble();
         double valorTotal = totalDolares * valorReal;
         System.out.println("O valor total a ser recebido em reais e de R$ " + valorTotal);
-         
+        tec.close();
     }
 }

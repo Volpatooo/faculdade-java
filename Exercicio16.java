@@ -14,6 +14,6 @@ public class Exercicio16 {
         System.out.println("Wuantidade de notas de 100 necessaria e: " + trocoPor100);
         System.out.println("Wuantidade de notas de 10 necessaria e: " + trocoPor10);
         System.out.println("Wuantidade de moedas de 1 real necessaria e: " + trocoPor1);
-        
+        tec.close();
     }
 }

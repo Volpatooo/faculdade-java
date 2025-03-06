@@ -7,5 +7,6 @@ public class Exercicio5 {
         int totalGalinhas = tec.nextInt();
         int valorTotal = totalGalinhas * 11;
         System.out.println("O gasto total na granja é de: R$ " + valorTotal + ",00");
+        tec.close();
     }
 }

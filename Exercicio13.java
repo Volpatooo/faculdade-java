@@ -12,5 +12,6 @@ public class Exercicio13 {
         double quantidadeAzulejos = areaParede * 9;
         double totalPago = quantidadeAzulejos * 12.50;
         System.out.println("O total pago foi de R$ " + totalPago);
+        tec.close();
     }
 }

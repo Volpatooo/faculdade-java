@@ -10,5 +10,6 @@ public class Exercicio10 {
         double somaCatetos = (catetoOposto * catetoOposto) + (catetoAdjacente * catetoAdjacente);
         double hipotenusa = Math.sqrt(somaCatetos);
         System.out.println("A hipotenusa deste triangulo e: " + hipotenusa);
+        tec.close();
     }
 }

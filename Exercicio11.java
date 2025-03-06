@@ -7,5 +7,6 @@ public class Exercicio11 {
         double celsius = tec.nextDouble();
         double fahrenheit = (celsius * 9 / 5) + 32;
         System.out.println("A temperatura em Fahrenheit e de: " + fahrenheit);
+        tec.close();
     }
 }

@@ -10,6 +10,6 @@ public class Exercicio9 {
         double alturaLata = tec.nextDouble();
         double volumeLata = pi * (raioLata * raioLata) * alturaLata;
         System.out.println("O volume total da lata de oleo e de : " + volumeLata);
-
+        tec.close();
     }
 }

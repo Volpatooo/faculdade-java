@@ -9,6 +9,6 @@ public class Exercicio15 {
         int dezena = (numero % 100) / 10; // % obtem o resto da divisao do numero por 100
         int unidade = numero % 10;
         System.out.println(centena + " centena(s) "+ dezena + " dezena(s) " + unidade + " unidade(s)");
-
+        tec.close();
     }
 }

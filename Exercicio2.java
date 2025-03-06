@@ -9,5 +9,6 @@ public class Exercicio2 {
         System.out.println("O valor do desconto é de R$ " + desconto);
         double valorFinal = valorProduto - desconto;
         System.out.println("O valor do produto com desconto é de " + valorFinal);
+        tec.close();
     }
 }

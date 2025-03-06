@@ -10,5 +10,6 @@ public class Exercicio3 {
         double valorPagamento = tec.nextDouble();
         double quantidadeLitros = valorPagamento / precoGasolina;
         System.out.println("A quantidade de litros colocada foi de: " + quantidadeLitros + " litros.");
+        tec.close();
     } 
 }

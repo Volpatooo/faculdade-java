@@ -14,6 +14,6 @@ public class exercicio12 {
         double descImpostoRenda = salarioBruto * 0.05;
         double salarioLiquido = salarioBruto - (descontoInss + descImpostoRenda);
         System.out.println("O funcionario " + nomeFuncionario + "possui um salario bruto de R$" + salarioBruto + " e um salario liquido de R$ " + salarioLiquido + ".");
-
+        tec.close();
     }
 }

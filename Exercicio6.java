@@ -7,5 +7,6 @@ public class Exercicio6 {
         double pesoPrato = tec.nextDouble();
         double valorTotal = pesoPrato * 25;
         System.out.println("O valor total a pagar pelo prato é de: R$" + valorTotal);
+        tec.close();
     }
 }
