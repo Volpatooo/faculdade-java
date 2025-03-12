@@ -3,15 +3,15 @@ import java.util.Scanner;
 public class Loops {
     public static void main(String[] args) {
         // Call das funções aqui
-        // usoDoIf();
+        soma();
 
-        double resultadoCalculadora = calculadora();
+        /*double resultadoCalculadora = calculadora();
         if (!Double.isNaN(resultadoCalculadora)) {
             System.out.println("O resultado da operaçã é " + resultadoCalculadora);
         } else {
             System.out.println("Operação inválida ou erro durante a operação!");
-        } 
-    }
+        } /* */
+    } 
 
     public static double calculadora() {
         Scanner s = new Scanner(System.in);
@@ -40,12 +40,18 @@ public class Loops {
             return Double.NaN;
         }
     }
+
+    public static void soma() {
+        Scanner s = new Scanner(System.in);
+        System.out.println("Informe um número: ");
+        double numero01 = s.nextInt();
+        System.out.println("Informe um segundo número: ");
+        double numero02 = s.nextInt();
+        if (numero02 != 0) {
+            double resultadoDivisao = numero01 / numero02;
+            System.out.println("O resultado da divisão é de: " + resultadoDivisao);
+        } else {
+            System.err.println("Impossível dividir por!");
+        }
+    }
 }
-
-
-
-
-
-
-
-

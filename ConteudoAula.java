@@ -1,3 +1,4 @@
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class ConteudoAula {
@@ -35,5 +36,14 @@ public class ConteudoAula {
         System.out.println("Digite sua Idade: ");
         short idade = tec.nextShort();
         System.out.println("Bem-Vindo " + nome + " " + sobrenome + " voçê tem " + idade + " anos!"); 
+
+        double raio, area;
+        final double pi = 3.14159;
+        Scanner s = new Scanner(System.in);
+        DecimalFormat formatador = new DecimalFormat("0.0000");
+        raio = s.nextDouble();
+        s.close();
+        area = pi * (raio * raio);
+        System.out.println("A=" + formatador.format(area));
     }
 }
