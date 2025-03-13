@@ -1,3 +1,4 @@
+package unidade4;
 import java.util.Scanner;
 
 public class Loops {

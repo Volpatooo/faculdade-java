@@ -1,4 +1,4 @@
-package exerciciosLogica;
+package unidade3;
 import java.util.Scanner;
 
 public class Exercicio15 {
