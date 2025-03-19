@@ -18,21 +18,48 @@ public class exercicio14 {
 
         s.close();
 
-        if (dia > 0 && dia < 32 && mes > 0 && mes < 13 && ano > 0 &&
-        mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12){
-                System.out.println("Válida");
-        } else if (mes == 2 && dia == 29 && ano % 4 == 0 &&
-                ano % 100 != 0 && ano % 400 != 0){
-                System.out.println("Válida");
-        } else if (mes == 2 && ano > 0 && dia > 0 && dia < 29 &&
-        ano % 4 == 0 && ano % 100 != 0 && ano % 400 != 0){
-                System.out.println("Não Válida");
-        } else if (dia > 0 && dia < 31 &&
-        mes == 4 || mes == 6 || mes == 7 || mes == 11){
-                System.out.println("Válida");
-        } else if (dia <= 0 && dia > 31 && mes < 1 && mes > 13 && ano < 0){
-                System.out.println("Não Válida");
-        }
-        
+       boolean dataValida = true;
+       
+       if (ano <= 0) {
+            dataValida = false;
+       } else if (mes < 1 || mes > 12) {
+            dataValida = false;
+       } else if (mes == 2) {
+                boolean anoBissexto = (ano % 4 == 0 && ano % 100 != 0) || (ano % 400 == 0);
+                if (anoBissexto && dia >= 1 && dia <= 29) {
+                        dataValida = true;
+                } else if (!anoBissexto && dia >= 1 && dia <= 28) {
+                        dataValida = true;
+                } else {
+                        dataValida = false;
+                }
+       }
+
+       else if (mes == 4 || mes == 6 || mes == 9 || mes == 11) {
+                if (dia >= 1 && dia <= 30) {
+                        dataValida = true;
+                } else {
+                        dataValida = false;
+                }
+       }
+
+       else {
+                if (dia >= 1 && dia <= 31) {
+                        dataValida = true;
+                } else {
+                        dataValida = false;
+                }
+       }
+
+       if (dataValida) {
+        System.out.println("Valida");
+       } else {
+        System.out.println("Não valida");
+       }
+
+       s.close();
     }
 }
+
+
+// ||
