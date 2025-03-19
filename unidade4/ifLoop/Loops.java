@@ -1,4 +1,4 @@
-package unidade4;
+package unidade4.ifLoop;
 import java.util.Scanner;
 
 public class Loops {
