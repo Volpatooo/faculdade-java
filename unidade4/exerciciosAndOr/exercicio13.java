@@ -18,25 +18,25 @@ public class exercicio13 {
 
         s.close();
 
-        int qntdCartas = 0;
+        int qntdCartasBoas = 0;
 
         if (carta1 == 1 || carta1 == 2 || carta1 == 3) {
-            qntdCartas += 1;  
+            qntdCartasBoas += 1;  
         }
 
         if (carta2 == 1 || carta2 == 2 || carta2 == 3) {
-            qntdCartas += 1;  
+            qntdCartasBoas += 1;  
         }
 
         if (carta3 == 1 || carta3 == 2 || carta3 == 3) {
-            qntdCartas += 1;  
+            qntdCartasBoas += 1;  
         }
 
-        if (qntdCartas == 1) {
+        if (qntdCartasBoas == 1) {
             System.out.println("TRUCO");
-        } else if (qntdCartas == 2) {
+        } else if (qntdCartasBoas == 2) {
             System.out.println("SEIS");
-        } else if (qntdCartas == 3) {
+        } else if (qntdCartasBoas == 3) {
             System.out.println("NOVE");
         } else {
             System.out.println("");

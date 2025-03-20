@@ -1,4 +1,4 @@
-package unidade4.Exercicios;
+package unidade4.Exercicios_And_Or;
 
 import java.util.Scanner;
 
