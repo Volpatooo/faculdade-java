@@ -1,4 +1,4 @@
-package unidade5;
+package unidade5.forloop;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
