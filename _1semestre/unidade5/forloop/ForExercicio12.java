@@ -12,8 +12,8 @@ public class ForExercicio12 {
         System.out.println("Qual o número de linhas: ");
         n = s.nextInt();
 
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= i; j++) {
+        for (int i = 1; i <= n; i++) { // lê o número de linhas
+            for (int j = 1; j <= i; j++) { // números por linha
                 System.out.print(contador + " ");
                 contador++;
             }
