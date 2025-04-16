@@ -6,7 +6,7 @@
 // crio aas var maior =  Double.NEGATIVE_INFINITY; ou seja vou comparar os numeros que eu digitei com o menor numero possivel existente e achar o maior entre eles e para achar o menor numero vou fazer o contrario comparar cs numeros digitados com o maior nuemero existente para achar o menor
 
 
-package unidade5.forloop;
+package unidade5.forloop.ForLoop;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;

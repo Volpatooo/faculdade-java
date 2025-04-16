@@ -1,6 +1,6 @@
 // Descreva um algoritmo que leia 20 números inteiros e escreva, para cada número lido, se o mesmo é par ou ímpar.
 
-package unidade5.forloop;
+package unidade5.forloop.ForLoop;
 import java.util.Scanner;
 
 public class ForExercicio1 {

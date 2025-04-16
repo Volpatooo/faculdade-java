@@ -1,7 +1,7 @@
 // Descreva um algoritmo que leia a altura de 20 pessoas e calcule a média de altura das mesmas.
 // calculo da altura tem que ser feito fora do loop senao ele vai pegar cada altura e dividir po 20
 
-package unidade5.forloop;
+package unidade5.forloop.ForLoop;
 
 import java.util.Scanner;
 

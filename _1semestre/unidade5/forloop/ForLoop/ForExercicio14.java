@@ -1,4 +1,4 @@
-package unidade5.forloop;
+package unidade5.forloop.ForLoop;
 
 import java.util.Scanner;
 

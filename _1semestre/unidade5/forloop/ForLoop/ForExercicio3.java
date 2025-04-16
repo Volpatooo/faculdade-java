@@ -3,7 +3,7 @@
 
 
 
-package unidade5.forloop;
+package unidade5.forloop.ForLoop;
 
 public class ForExercicio3 {
     public static void main(String[] args) {

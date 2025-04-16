@@ -3,7 +3,7 @@
 //escreva a quantidade de alunos que tem idade acima de 20 anos.
 // Sempre se depois do nextInt ou nextDouble vir um dado que necessite de nextLine acrescentar um nextLine depois do nextInt ou Double pois senão o caractere da nova linha fica preso 
 
-package unidade5.forloop;
+package unidade5.forloop.ForLoop;
 
 import java.util.Scanner;
 

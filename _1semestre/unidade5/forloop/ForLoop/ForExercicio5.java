@@ -1,6 +1,6 @@
-package unidade5.forloop;
+package unidade5.forloop.ForLoop;
 
-public class ForExercicio10 {
+public class ForExercicio5 {
     public static void main(String[] args) {
         
     }
