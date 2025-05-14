@@ -4,8 +4,8 @@ public class Exericicio2 {
     public static void main(String[] args) {
         double[] reais = new double[12];
 
-        for (int idx = 0; idx < reais.length; idx++) {
-            reais[idx] = idx + 1; 
+        for (int i = 0; i < reais.length; i++) {
+            reais[i] = i + 1; 
         }
 
         double soma = 0;
