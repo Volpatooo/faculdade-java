@@ -15,14 +15,43 @@ public class Exercicio7 {
         }
 
         int[] vetorInteiros = new int[valorN];
-        for (int i = 0; i < vetorInteiros.length; i++) {
-            System.out.println("Informe um valor: ");
-            vetorInteiros[i] = s.nextInt();
+        int contador = 0;
 
-            while (vetorInteiros[i] == i) {
-                System.out.println("Informe um valor: ");
-                vetorInteiros[i] = s.nextInt();
+        while (contador < valorN) {
+            System.out.println("Informe um valor: ");
+            int valor = s.nextInt();
+
+            boolean repetido = false;
+            for (int i = 0; i < contador; i++) {
+                if (vetorInteiros[i] == valor) {
+                    repetido = true;
+                    break;
+                }
+            }
+
+            if (!repetido) {
+                vetorInteiros[contador] = valor;
+                contador++;
+            } else {
+                System.out.println("Valor já existe infomre outro: ");
             }
         }
+
+        for (int i = 0; i < vetorInteiros.length - 1; i++) {
+            for (int j = 0; j < vetorInteiros.length - 1 - i; j++) {
+                if (vetorInteiros[j] > vetorInteiros[j + 1]) {
+                    int temp = vetorInteiros[j];
+                    vetorInteiros[j] = vetorInteiros[j + 1];
+                    vetorInteiros[j + 1] = temp;
+                }
+            }
+        }
+
+        System.out.println("Vetor ordenado...");
+        for (int valor : vetorInteiros) {
+            System.out.println("["+ valor +"]");
+        }
+
+        s.close();
     }
 }
