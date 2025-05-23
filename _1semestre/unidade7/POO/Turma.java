@@ -13,7 +13,7 @@ public class Turma {
         alunos = new Aluno[capacidade];
     }
 
-    boolean castrarALuno(int matricula, double nota, int frequencia) {
+    boolean castrarAluno(int matricula, double nota, int frequencia) {
         if (qtdAlunos < alunos.length) {
 
             if (nota < 0.0 || nota > 10.0) {
