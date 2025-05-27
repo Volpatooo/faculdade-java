@@ -19,7 +19,7 @@ public class ForExercicio1 {
         }
        }
 
-       System.out.println("FIm voçê digitou 20 numeros!");
+       System.out.println("FIm você digitou 20 numeros!");
         s.close();
     }
 }
