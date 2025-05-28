@@ -110,6 +110,8 @@ public class QuestaoPratica {
                                 volume[contProdutos - 1] = 0;
                                 contProdutos--;
                                 System.out.println("Produto excluído!");
+                            } else {
+                                System.out.println("Produto não existe!");
                             }
                         }
                     }
