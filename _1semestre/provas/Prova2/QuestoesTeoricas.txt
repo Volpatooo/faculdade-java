@@ -1,0 +1,11 @@
+1- Letra E.
+
+2- 
+
+a) For percorrendo o tamanho do vetor chamado vetor, outro for percorrendo os valores do primeiro for e atribuindo as váriaveis os respectivos valores dos índices i e j e no final o incremento da variável número.
+
+b) 3 vezes ou seja, uma vez a menos que o laço i que percorria a var tamanho que tinha valor 5.
+
+c) Conteúdo do vetor chamado vetor = [0, 1, 2, 3, 4] que nada mais é que seu tamanho total, pois no final de todo método com a atribuição das variáveis ele me retorna o tamanho total do vetor.
+
+d) 10 pois seu valor inicial é 5 e esta identada com o primeiro for (i) que percorre o vetor chamado vetor 5 vezes.
