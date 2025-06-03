@@ -1,4 +1,4 @@
-package unidade06.desafio;
+package unidade6.introducao.Desafio;
 
 import java.util.Scanner;
 
