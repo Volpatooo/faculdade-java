@@ -1,10 +1,10 @@
 package _2semestre.unidade1;
 
 public class Pessoa {
-    double peso;
-    double altura;
+    public double peso;
+    public double altura;
 
-    double calcularImc() {
+    public double calcularImc() {
         return peso / (altura * altura);
     }
 
