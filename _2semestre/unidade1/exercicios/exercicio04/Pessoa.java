@@ -1,10 +1,10 @@
-package _2semestre.unidade1.exercicios;
+package _2semestre.unidade1.exercicios.exercicio04;
 
-public class Exercicio1Pessoa {
+public class Pessoa {
     double altura;
     double peso;
 
     double calcularImc() {
         return peso / (altura * altura);
-    }   
+    }
 }
