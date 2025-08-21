@@ -6,21 +6,18 @@ public class App {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
-        Pessoa pessoa = new Pessoa();
+        Pessoa[] pessoas = new Pessoa[3];
 
-        for (int i = 0; i < 3; i++) {
-            System.out.println("Digite sua altura:");
-            double altura = s.nextDouble();
+            for (int i = 0; i < 3; i++) {
+                pessoas[i] = new Pessoa();
+                System.out.println("Informe a altura (em metros)");
+                pessoas[i].altura = s.nextDouble();
 
-            System.out.println("Digite seu peso:"); 
-            double peso = s.nextDouble();
+                System.out.println("Informe o peso (em KG)");
+                pessoas[i].peso = s.nextDouble();
 
-            pessoa.altura = altura;
-            pessoa.peso = peso;
-
-            System.out.println("IMC: " + pessoa.calcularImc());
-        }
-
+                System.out.println("IMC da pessoa " + (i + 1) + ": " + pessoas[i].calcularImc());
+            }
+            s.close();
     }
-
 }

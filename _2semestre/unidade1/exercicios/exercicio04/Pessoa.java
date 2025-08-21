@@ -3,8 +3,9 @@ package _2semestre.unidade1.exercicios.exercicio04;
 public class Pessoa {
     double altura;
     double peso;
+    String nome;
 
-    double calcularImc() {
+    public double calcularImc () {
         return peso / (altura * altura);
     }
 }

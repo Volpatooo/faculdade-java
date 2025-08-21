@@ -4,7 +4,7 @@ public class Pessoa {
     double altura;
     double peso;
 
-    double calcularImc() {
+    public double calcularImc () {
         return peso / (altura * altura);
-    }   
+    }
 }
